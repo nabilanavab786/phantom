@@ -28,25 +28,58 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 
-┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-┈┈┈▕▕╲┊┊╱▏▏┈┈┈
-┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-HOI    {}, MY NAME IS {} !
+⠀⠀⠀⠀_______
+————-//\\  
+————// ¤ \\
+————\\ ¤ //
+————- \\//
+———– (___)
+————(___)
+————(___)
+————(___)_________
+\_____/\__/—-\__/\_____/
+—\ _°_[————]_ _° /
+——-\_°_¤ —- ¤_°_/
+———–\ ° /  _/
+————|\_°_/|
+————[|\_/|]
+————[|[¤]|]
+————[|;¤;|]
+————[;;¤;;]
+———–;;;;¤]|]\
+———-;;;;;¤]|]-\
+———;;;;;[¤]|]–\
+——–;;;;;|[¤]|]—\
+——-;;;;;[|[¤]|]|—|
+——;;;;;[|[¤]|]|—|
+——-;;;;[|[¤]|/—/
+——–;;;[|[¤]/—/
+———;;[|[¤/—/
+———-;[|[/—/
+———–[|/—/
+————/—/
+———–/—/|]
+———-/—/]|];
+———/—/¤]|];;
+——–|—|[¤]|];;;
+——–|—|[¤]|];;;
+———\–|[¤]|];;
+———-\-|[¤]|];
+————\|[¤]|]
+————-\\¤//
+————–\|/
+—————V
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
+HELLO    {}, MY NAME IS {} !
 
-[THIS LEGEND](tg://user?id={}).
+If am a group manager bot created for [സിനിമാലോകം](https://t.me/DOWNLOAD_MOVIE_M)
 
-HIT HELP FOR COMMANDS  /help
+No user's.. other than [സിനിമാലോകം](https://t.me/DOWNLOAD_MOVIE_M) group admins  can gain any use from this bot..
 
-I AM COMPLETELY OPEN SOURCE
+So just quit me.. no one ia going to help you..😂😂
 
-MY SOURCE CODE IS AVAILABLE TO YOU
-
-[HERE](https://github.com/leobrownlee/phantom)
+CrEaTed By:
+[THIS LEGEND](tg://user?id={})
 
 """
 
