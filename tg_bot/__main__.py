@@ -27,50 +27,24 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
+┈┈╱▔▔▔▔▔╲┈┈┈HM┈HM
+┈╱┈┈╱▔╲╲╲▏┈┈┈HMMM
+╱┈┈╱━╱▔▔▔▔▔╲━╮┈┈
+▏┈▕┃▕╱▔╲╱▔╲▕╮┃┈┈
+▏┈▕╰━▏▊▕▕▋▕▕━╯┈┈
+╲┈┈╲╱▔╭╮▔▔┳╲╲┈┈┈
+┈╲┈┈▏╭━━━━╯▕▕┈┈┈
+┈┈╲┈╲▂▂▂▂▂▂╱╱┈┈┈
+┈┈┈┈▏┊┈┈┈┈┊┈┈┈╲┈
+┈┈┈┈▏┊┈┈┈┈┊▕╲┈┈╲
+┈╱▔╲▏┊┈┈┈┈┊▕╱▔╲▕
+┈▏ ┈┈┈╰┈┈┈┈╯┈┈┈▕▕
+┈╲┈┈┈╲┈┈┈┈╱┈┈┈╱┈╲
+┈┈╲┈┈▕▔▔▔▔▏┈┈╱╲╲╲▏
+┈╱▔┈┈▕┈┈┈┈▏┈┈▔╲▔▔
+┈╲▂▂▂╱┈┈┈┈╲▂▂▂╱┈
 
-⠀⠀⠀⠀_______
-————-//\\  
-————// ¤ \\
-————\\ ¤ //
-————- \\//
-———– (___)
-————(___)
-————(___)
-————(___)_________
-\_____/\__/—-\__/\_____/
-—\ _°_[————]_ _° /
-——-\_°_¤ —- ¤_°_/
-———–\ ° /  _/
-————|\_°_/|
-————[|\_/|]
-————[|[¤]|]
-————[|;¤;|]
-————[;;¤;;]
-———–;;;;¤]|]\
-———-;;;;;¤]|]-\
-———;;;;;[¤]|]–\
-——–;;;;;|[¤]|]—\
-——-;;;;;[|[¤]|]|—|
-——;;;;;[|[¤]|]|—|
-——-;;;;[|[¤]|/—/
-——–;;;[|[¤]/—/
-———;;[|[¤/—/
-———-;[|[/—/
-———–[|/—/
-————/—/
-———–/—/|]
-———-/—/]|];
-———/—/¤]|];;
-——–|—|[¤]|];;;
-——–|—|[¤]|];;;
-———\–|[¤]|];;
-———-\-|[¤]|];
-————\|[¤]|]
-————-\\¤//
-————–\|/
-—————V
-
-HELLO    {}, MY NAME IS {} !
+HELLO {}, MY NAME IS {} !
 
 If am a group manager bot created for [സിനിമാലോകം](https://t.me/DOWNLOAD_MOVIE_M)
 
@@ -189,8 +163,8 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username))]]))
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="JOIN OUR CHANNEL",
+                                                                       url="https://t.me/joinchat/AAAAAEmevEkPZfUp-UrdyA".format(bot.username))]]))
 
 
     else:
