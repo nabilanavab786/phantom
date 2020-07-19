@@ -46,7 +46,7 @@ PM_START_TEXT = """
 
 HELLO {}, MY NAME IS {} !
 
-If am a group manager bot created for [സിനിമാലോകം](https://t.me/DOWNLOAD_MOVIE_M)
+I am a group manager bot created for [സിനിമാലോകം](https://t.me/DOWNLOAD_MOVIE_M)
 
 No user's.. other than [സിനിമാലോകം](https://t.me/DOWNLOAD_MOVIE_M) group admins  can gain any use from this bot..
 
